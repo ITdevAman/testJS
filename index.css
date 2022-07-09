@@ -1,0 +1,137 @@
+
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+#form{
+    display: flex;
+    align-items: center;
+    width: 470px;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 40px;
+    border: 1px solid black;
+    padding: 10px;
+}
+#search{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 470px;
+    position: relative;
+    justify-content: space-between;
+    margin-left: 40px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.input{
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border: 1px solid black;
+    margin: 5px 0;
+}
+.div   {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    width: 500px;
+    position: relative;
+}
+li{
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding:0 20px;
+    width: 90%;
+    height: 40px;
+}
+li h1{
+    font-size: 18px;
+    font-weight: 600;
+    width: 60%;
+    position: relative;
+}
+li p{
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    width: 30%;
+}
+li span{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -4%;
+    margin-top: -8%;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 20px;
+    color: white;
+    height: 20px;
+    position: absolute;
+    background: green;
+}
+li button{
+    font-size: 16px;
+    position: relative;
+    background: red;
+    width: 10%;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.block{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.item_block{
+    padding: 40px;
+    width: 300px;
+    background: #1a5b4f;
+}
+.item_block h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.item_block p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.item_block button {
+    font-size: 16px;
+    position: relative;
+    background: red;
+    width: 40%;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.item_block span {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 20px;
+    color: white;
+    height: 20px;
+    position: absolute;
+    background: red;
+}
